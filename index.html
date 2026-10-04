@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingeniería de Sistemas - Uniamazonia</title>
+  <meta name="description" content="Programa Ingeniería de Sistemas de la Universidad de la Amazonia. (WEB) " />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="#inicio">
+        <img src="./img/LogoSuperior.jpg" onerror="
+              this.onerror = null;
+              this.src = 'https://www.uniamazonia.edu.co/inicio/images/Programas/LogoSuperior.jpg';
+            " alt="Universidad de la Amazonia" class="logo-img" />
+        <span class="nombre-programa d-none d-sm-inline">Ingeniería de Sistemas</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#programa">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mision">Misión y visión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#perfiles">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plan">Plan de estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#requisitos">Requisitos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inversion">Inversión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recursos">Documentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn-nav ms-lg-3" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portada -->
+  <header class="portada" id="inicio">
+    <div class="capa"></div>
+    <div class="container position-relative text-center">
+      <span class="etiqueta-portada animate__animated animate__fadeIn">Pregrado · Presencial</span>
+      <h1 class="animate__animated animate__fadeInDown">
+        Ingeniería de <span class="texto-resaltado">Sistemas</span>
+      </h1>
+      <p class="animate__animated animate__fadeInUp animate__delay-1s">
+        Formación integral de ingenieros que crean, innovan y aplican
+        soluciones computacionales para el progreso económico, social y
+        sostenible de la región Amazónica y del país.
+      </p>
+      <div class="botones-portada animate__animated animate__fadeInUp animate__delay-1s">
+        <a href="#programa" class="boton-principal">Conocer el programa</a>
+        <a href="#plan" class="boton-borde">Ver plan de estudios</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="cifras">
+      <div class="container">
+        <div class="row g-0 caja-cifras text-center">
+          <div class="col-6 col-md-3">
+            <div class="cifra">
+              <strong data-count="2004">2004</strong><span>Creación del programa</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="cifra">
+              <strong data-count="10">10</strong><span>Semestres</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="cifra">
+              <strong data-count="178">178</strong><span>Créditos académicos</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="cifra">
+              <strong data-count="2022">2022</strong><span>Registro calificado vigente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programa -->
+    <section id="programa" class="py-5 seccion">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Ficha del programa</h2>
+          <p>
+            Información general de Ingeniería de Sistemas, Universidad de la
+            Amazonia
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-mortarboard icono-tarjeta"></i>
+                <h5 class="card-title">Título que otorga</h5>
+                <p class="card-text">Ingeniero de Sistemas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-building icono-tarjeta"></i>
+                <h5 class="card-title">Modalidad</h5>
+                <p class="card-text">Presencial</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-sun icono-tarjeta"></i>
+                <h5 class="card-title">Jornada</h5>
+                <p class="card-text">Diurna</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-hourglass-split icono-tarjeta"></i>
+                <h5 class="card-title">Duración</h5>
+                <p class="card-text">10 semestres</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-award icono-tarjeta"></i>
+                <h5 class="card-title">Créditos académicos</h5>
+                <p class="card-text">178 créditos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-file-earmark-text icono-tarjeta"></i>
+                <h5 class="card-title">Acuerdo de creación</h5>
+                <p class="card-text">Acuerdo 16 del 26 de agosto de 2004</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-patch-check icono-tarjeta"></i>
+                <h5 class="card-title">Registro calificado</h5>
+                <p class="card-text">
+                  Resolución 001562 del 16 de febrero de 2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-upc-scan icono-tarjeta"></i>
+                <h5 class="card-title">Código SNIES</h5>
+                <p class="card-text">52384</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-geo-alt icono-tarjeta"></i>
+                <h5 class="card-title">Lugar de desarrollo</h5>
+                <p class="card-text">Florencia, Caquetá · Campus Florencia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel mt-5">
+          <h3>
+            <i class="bi bi-stars"></i> Propósito de formación del programa
+          </h3>
+          <p>
+            El Programa Ingeniería de Sistemas de la Universidad de la
+            Amazonia tiene como principal propósito desarrollar procesos de
+            formación integral de profesionales de la Ingeniería de Sistemas,
+            mediante un currículo que aborda los conocimientos propios de las
+            ciencias básicas, la ingeniería, el campo tecnológico,
+            investigativo, socio-humanista y de formación complementaria.
+          </p>
+          <p>
+            Esta formación permitirá al estudiante ser capaz de interactuar
+            con su entorno e incidir positivamente en él, mediante la
+            creación, innovación y aplicación de soluciones computacionales
+            soportadas en las Tecnologías de la Información y la Comunicación.
+          </p>
+          <p class="mb-0">
+            Estas soluciones buscan contribuir al fortalecimiento y progreso
+            económico, social, tecnológico y sustentable de la región
+            Amazónica y del país.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Misión y visión -->
+    <section id="mision" class="py-5 seccion-alterna">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Misión y visión</h2>
+          <p>Lo que define al programa</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="panel h-100">
+              <h3><i class="bi bi-bullseye"></i> Misión</h3>
+              <p>
+                El programa académico Ingeniería de Sistemas de la Universidad
+                de la Amazonia asume como encargo social la formación de
+                profesionales íntegros, con capacidad para crear, innovar,
+                formular y solucionar problemáticas organizacionales y
+                productivas, apoyados en el desarrollo de sistemas de
+                información soportados en las diferentes tecnologías
+                informáticas.
+              </p>
+              <p class="mb-0">
+                Su propósito es contribuir al desarrollo social, económico y
+                tecnológico de la región amazónica y del país.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="panel h-100">
+              <h3><i class="bi bi-eye"></i> Visión</h3>
+              <p>
+                Ingeniería de Sistemas será un programa académico en
+                permanente acreditación académica y social, líder en la
+                formación integral de profesionales, competentes en el campo
+                académico, investigativo y humanístico.
+              </p>
+              <p class="mb-0">
+                Los profesionales estarán comprometidos con el desarrollo
+                tecnológico de la región amazónica y del país, apoyados en
+                tecnologías de información.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="perfiles" class="py-5 seccion">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Perfil y campo de acción</h2>
+          <p>
+            Quién es el Ingeniero de Sistemas de la Universidad de la Amazonia
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="panel claro h-100">
+              <h3><i class="bi bi-person-check"></i> Perfil de egreso</h3>
+              <p>
+                El Ingeniero de Sistemas de la Universidad de la Amazonia es
+                un profesional que comprende las dinámicas del entorno,
+                reconociendo las implicaciones y las responsabilidades
+                legales, profesionales, éticas, sociales, económicas y
+                culturales del ejercicio de su profesión.
+              </p>
+              <p class="mb-0">
+                Así mismo, reconoce que la evolución constante de su
+                disciplina y las condiciones cambiantes del entorno hacen
+                necesario implementar estrategias autónomas de aprendizaje
+                continuo, orientados a su perfeccionamiento profesional.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="panel claro h-100">
+              <h3>
+                <i class="bi bi-person-workspace"></i> Perfil profesional
+              </h3>
+              <p>
+                La carrera profesional de Ingeniería de Sistemas es
+                multidisciplinaria, permitiendo a los egresados el acceso a
+                diversos sectores ocupacionales.
+              </p>
+              <p>
+                El programa combina la aplicación de conocimientos de varias
+                disciplinas y utiliza diferentes enfoques de análisis, tales
+                como modelos, sistemas, investigación operacional, algoritmia
+                computacional e informática.
+              </p>
+              <p class="mb-0">
+                Estos conocimientos permiten abordar problemas que involucran
+                relaciones complejas entre diferentes componentes.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="panel claro h-100">
+              <h3><i class="bi bi-briefcase"></i> Campo de acción</h3>
+              <p>
+                El papel del Ingeniero de Sistemas adquiere especial
+                importancia a través de la interacción multidisciplinaria y de
+                las necesidades de las organizaciones de mantenerse
+                constantemente informadas para optimizar la toma de
+                decisiones.
+              </p>
+              <p>
+                La tecnología de información es esencial para competir en la
+                actualidad, ya que integra diferentes elementos y habilidades
+                utilizadas en la creación, almacenamiento y distribución de
+                información.
+              </p>
+              <p>
+                El Ingeniero de Sistemas puede participar en la solución de
+                problemas, liberación de la creatividad e incremento de la
+                productividad de las organizaciones.
+              </p>
+              <p class="mb-0">
+                Puede desempeñarse tanto en empresas públicas como privadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan de estudios -->
+    <section id="plan" class="py-5 seccion-alterna">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Plan de estudios</h2>
+          <p>
+            Acuerdo 44 del 02 de diciembre de 2020, por el cual se aprueba el
+            nuevo plan de estudios y el plan de transición del programa
+            académico de Ingeniería de Sistemas.
+          </p>
+        </div>
+
+        <div class="buscador">
+          <input type="search" id="buscar" placeholder="Buscar asignatura (ej. redes, software, datos)..."
+            aria-label="Buscar asignatura" />
+          <span id="conteo"></span>
+        </div>
+
+        <div class="etiquetas" id="etiquetas">
+          <span>Matemáticas I y II</span><span>Álgebra lineal</span><span>Ecuaciones diferenciales</span><span>Métodos
+            numéricos</span>
+          <span>Introducción a la ingeniería</span><span>Teoría general de sistemas</span><span>Análisis de
+            sistemas</span> <span>Estructuras de datos</span><span>Ingeniería de software I, II y
+            III</span><span>Sistemas operativos</span>
+          <span>Redes informáticas I y II</span><span>Diseño de bases de datos</span><span>Administración de bases de
+            datos</span>
+          <span>Inteligencia artificial</span><span>Proyectos de software</span><span>PESI</span>
+          <span>Filosofía e historia de la ciencia</span><span>Metodología de la investigación I y II</span><span>Taller
+            de escritura científica</span> <span>Electivas</span><span>Opción de grado</span>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="https://www.uniamazonia.edu.co/documentos/docs/Programas%20Academicos/Ingenieria%20de%20Sistemas/Plan%20de%20Estudios/Plan%20de%20estudios%202022.pdf"
+            target="_blank" rel="noopener" class="boton-secundario">Ver pensum completo (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admisión -->
+    <section id="admision" class="py-5 seccion">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Requisitos e inversión</h2>
+          <p>
+            Información para aspirantes al programa de Ingeniería de Sistemas
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6" id="requisitos">
+            <div class="panel claro h-100">
+              <h3><i class="bi bi-card-checklist"></i> Requisitos</h3>
+              <p>
+                Para conocer los requisitos de ingreso al programa, consulta
+                la información oficial de la Universidad de la Amazonia.
+              </p>
+              <a href="https://www.uniamazonia.edu.co/" target="_blank" rel="noopener" class="boton-secundario">Ver
+                requisitos</a>
+            </div>
+          </div>
+          <div class="col-md-6" id="inversion">
+            <div class="panel claro h-100">
+              <h3><i class="bi bi-cash-coin"></i> Inversión</h3>
+              <h6>Valor de inscripción</h6>
+              <p>8.0% del S.M.M.L.V. (Acuerdo 02 del 26 de enero de 2012).</p>
+              <h6>Valor del derecho de matrícula</h6>
+              <p class="mb-0">Según el Acuerdo 01 del 26 de enero de 2012.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="py-5 seccion-alterna">
+      <div class="container">
+        <div class="titulo-seccion text-center mb-5">
+          <h2>Documentos de interés</h2>
+          <p>
+            Recursos del programa disponibles en el sitio oficial de la
+            Universidad
+          </p>
+        </div>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-journal-text"></i>
+              <div>
+                <h5>Contenidos programáticos</h5>
+                <p>Pensum 2020.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-mortarboard"></i>
+              <div>
+                <h5>Opciones de grado</h5>
+                <p>Modalidades para obtener el título.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-file-earmark-arrow-down"></i>
+              <div>
+                <h5>Formatos de opción de grado</h5>
+                <p>Incluye el formato de notificación.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-easel"></i>
+              <div>
+                <h5>Protocolo de sustentación</h5>
+                <p>Protocolo de sustentación y socialización.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i>
+              <div>
+                <h5>Brochure</h5>
+                <p>Presentación de Ingeniería de Sistemas.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="recurso"
+              href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+              target="_blank" rel="noopener"><i class="bi bi-clipboard-check"></i>
+              <div>
+                <h5>Informes de calidad</h5>
+                <p>Autoevaluación y verificación del par evaluador.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="titulo-seccion text-center mb-4" id="investigacion">
+          <h2>Líneas de investigación</h2>
+        </div>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-globe-americas icono-tarjeta"></i>
+                <h5 class="card-title">
+                  Sistemas de Información Geográfica (SIG)
+                </h5>
+                <p class="card-text">Acuerdo 19 de 2002 del C.A.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-mortarboard icono-tarjeta"></i>
+                <h5 class="card-title">Informática educativa</h5>
+                <p class="card-text">Acuerdo 03 de 2003 del C.A.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card tarjeta h-100">
+              <div class="card-body">
+                <i class="bi bi-robot icono-tarjeta"></i>
+                <h5 class="card-title">Inteligencia Artificial</h5>
+                <p class="card-text">Línea de investigación del programa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="titulo-seccion text-center mb-4" id="normativa">
+          <h2>Normativa</h2>
+        </div>
+        <div class="linea">
+          <div class="hito">
+            <b>2004</b>
+            <p>Acuerdo 16 del 26 de agosto: creación del programa.</p>
+          </div>
+          <div class="hito">
+            <b>2020</b>
+            <p>
+              Acuerdo 44 del 2 de diciembre: aprueba el nuevo plan de estudios
+              y el plan de transición.
+            </p>
+          </div>
+          <div class="hito">
+            <b>2022</b>
+            <p>
+              Resolución 001562 del 16 de febrero: registro calificado del
+              programa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <h2 class="mb-4"><b>Contacto</b></h2>
+        <p class="mb-5">
+          Resolvemos tus dudas sobre el programa de Ingeniería de Sistemas.
+        </p>
+        <div class="row g-4 text-start mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="dato-contacto">
+              <i class="bi bi-person-badge"></i>
+              <h5>Coordinadora de Programa</h5>
+              <p>Paula Andrea Chica Murcia</p>
+              <p>Tel. 320 454 1936</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="dato-contacto">
+              <i class="bi bi-geo-alt"></i>
+              <h5>Ubicación</h5>
+              <p>
+                Campus Florencia, barrio El Porvenir, bloque administrativo,
+                primer piso. Calle 17 Diagonal 17 con Carrera 3F, Florencia,
+                Caquetá
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="dato-contacto">
+              <i class="bi bi-envelope"></i>
+              <h5>Correo</h5>
+              <p>
+                <a href="mailto:atencionalciudadano@uniamazonia.edu.co">atencionalciudadano@uniamazonia.edu.co</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="dato-contacto">
+              <i class="bi bi-clock"></i>
+              <h5>Atención al público</h5>
+              <p>
+                Lunes a viernes<br />7:30 a. m. a 11:30 a. m.<br />1:30 p. m.
+                a 5:30 p. m.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/programas/pregrado/ingenieria/ingenieria-de-sistemas.html"
+          target="_blank" rel="noopener" class="boton-principal">Ir al sitio oficial</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="pie">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <div class="pie-marca">
+            <span class="logo-pie"><img src="./img/LogoSuperior.jpg" onerror="
+                    this.onerror = null;
+                    this.src =
+                      'https://www.uniamazonia.edu.co/inicio/images/Programas/LogoSuperior.jpg';
+                  " alt="Universidad de la Amazonia" class="logo-img" /></span>
+            <span class="nombre-pie">Ingeniería de Sistemas</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <div class="pie-contacto">
+            <div class="item-contacto">
+              <i class="bi bi-building"></i><span>Universidad de la Amazonia · Facultad de Ingeniería</span>
+            </div>
+            <div class="item-contacto">
+              <i class="bi bi-geo-alt"></i><span>Sede Porvenir, Florencia, Caquetá, Colombia</span>
+            </div>
+            <div class="item-contacto">
+              <i class="bi bi-telephone"></i><span>320 454 1936</span>
+            </div>
+            <div class="item-contacto">
+              <i class="bi bi-envelope"></i><a
+                href="mailto:atencionalciudadano@uniamazonia.edu.co">atencionalciudadano@uniamazonia.edu.co</a>
+            </div>
+            <div class="item-contacto">
+              <i class="bi bi-globe"></i><a href="https://www.uniamazonia.edu.co" target="_blank"
+                rel="noopener">uniamazonia.edu.co</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pie-inferior">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-8 text-center text-md-start">
+            <p class="derechos">
+              © 2026 Ingeniería de Sistemas · Entregable 1. Información del
+              sitio oficial de la Universidad de la Amazonia (NIT
+              891190346-1). Vigilada Ministerio de Educación.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-end">
+            <div class="enlaces-pie">
+              <a href="#programa" aria-label="Programa"><i class="bi bi-mortarboard"></i></a>
+              <a href="#plan" aria-label="Plan de estudios"><i class="bi bi-journal-text"></i></a>
+              <a href="#inicio" aria-label="Volver arriba"><i class="bi bi-arrow-up-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
